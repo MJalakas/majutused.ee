@@ -3,7 +3,7 @@ import React from "react";
 export default function Header() {
   return (
     <header className="header-wrapper">
-      <div className="header--left">MAJUTUSED.EE</div>
+      <div className="header--left">Majutused.ee</div>
       <div className="header--right">
         <nav className="header--main-nav">
           <ul className="nav-ul">
