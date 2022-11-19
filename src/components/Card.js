@@ -1,24 +1,21 @@
 import React from "react";
-import cardImg from "../images/cardimg.jpg";
 
 export default function Card(props) {
+  console.log("../images/" + props.img);
   return (
     <div className="card-wrapper">
       <div className="card--image-wrapper">
-        <img src={cardImg}></img>
+        <img src={props.img}></img>
       </div>
       <div className="card--text-wrapper">
         <div className="card--specs">
-          <div className="card--rating">5.0</div>
-          <div className="card--location">Tallinn</div>
-          <div className="card--type">Hotell</div>
+          <div className="card--rating">{props.rating}</div>
+          <div className="card--location">{props.city}</div>
+          <div className="card--type">{props.type}</div>
         </div>
-        <div className="card--description">
-          Terve stuudiokorter • 1 vannituba • 1 köök • 26m² 1 lai
-          kaheinimesevoodi
-        </div>
+        <div className="card--description">{props.description}</div>
         <div className="card--price">
-          Alates <strong>99€</strong>
+          Alates <strong>{props.price}€</strong>
         </div>
       </div>
       <div className="card--buttons">
