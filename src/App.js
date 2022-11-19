@@ -1,11 +1,15 @@
 import "./App.css";
+import Header from "./components/Header";
+import Card from "./components/Card";
+import MainContent from "./components/MainContent";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>strapi + react on zone XD</p>
-      </header>
+      <Header />
+      <MainContent>
+        <Card />
+      </MainContent>
     </div>
   );
 }
