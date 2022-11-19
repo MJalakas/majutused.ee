@@ -12,10 +12,10 @@ body {
   width:400px;
   min-height: 500px;
   background-color: white;
-  box-shadow: 0 3px 5px #888888;
   border-radius:10px;
   display:flex;
   flex-direction: column;
+  filter: drop-shadow(0 3px 7px #333);
 }
 
 header {
