@@ -7,7 +7,7 @@ export default [
     name: "Hotell 1",
     price: 99,
     city: "Tallinn",
-    rating: 5.0,
+    rating: 9.3,
     type: "Hotell",
     description:
       "Terve stuudiokorter • 1 vannituba • 1 köök • 26m² 1 lai kaheinimesevoodi",
@@ -15,13 +15,13 @@ export default [
   },
   {
     id: 2,
-    name: "Hotell 2",
+    name: "Bob W Telliskivi",
     price: 333,
     city: "Tallinn",
-    rating: 3.2,
-    type: "Hotell",
+    rating: 9.3,
+    type: "Apartment",
     description:
-      "Terve stuudiokorter • 1 vannituba • 1 köök • 26m² 1 lai kaheinimesevoodi",
+      "Smart Buddy - Stuudiokorter - Terve apartement • 1 magamistuba • 1 vannituba • 1 köök • 25m² - 1 narivoodi",
     img: cardImg,
   },
   {
