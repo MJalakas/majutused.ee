@@ -68,7 +68,7 @@ header {
 }
 
 .card--text-wrapper {
-  padding:15px 15px 0 15px;
+  padding:5px 15px 0 15px;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -139,5 +139,10 @@ header {
   .card-wrapper {
     width:100vw;
   }
+}
 
+.card--title {
+  font-weight: bold;
+  font-size:20px;
+  margin-bottom:-10px;
 }

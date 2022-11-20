@@ -8,6 +8,7 @@ export default function Card(props) {
         <img src={props.img}></img>
       </div>
       <div className="card--text-wrapper">
+        <div className="card--title">{props.name}</div>
         <div className="card--specs">
           <div className="card--rating-wrapper">
             <div className="card--rating-title">Hinnang</div>
