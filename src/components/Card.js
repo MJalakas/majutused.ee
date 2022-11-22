@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Card(props) {
-  console.log("../images/" + props.img);
   return (
     <div className="card-wrapper">
       <div className="card--image-wrapper">
