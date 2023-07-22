@@ -1,2 +1,2 @@
 # Majutused.ee
-Web app for finding Estonian hotels & apartments. Made by Marten Jalakas.
+Webapp for finding Estonian hotels & apartments. Learning & testing purposes, not production-ready.
